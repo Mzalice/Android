@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GameHmg</string>
+    <string name="start">个人学习开发制作Mod类型小作品，功能待补充版，详情见附带说明文档</string>
+    <string name="hongmoguan">庭院</string>
+    <string name="danchou">抽选一回</string>
+    <string name="shilian">抽选十回</string>
+    <string name="xingming">蕾米莉亚</string>
+    <string name="jiahu">加护</string>
+    <string name="fanhui">返回</string>
+    <string name="paihang">排行</string>
+    <string name="haoyou">好友</string>
+    <string name="kejin">氪金</string>
+    <string name="dengji">1</string>
+    <string name="baoshibuzu">宝石不足</string>
+    <string name="guanbi">关闭</string>
+    <string name="wuqichulv">武器出率</string>
+    <string name="jiangli">奖励</string>
+    <string name="huodong">活动</string>
+    <string name="wupin">物品</string>
+    <string name="yongbing">佣兵</string>
+    <string name="xunlian">训练</string>
+    <string name="zhuanzhi">转职</string>
+    <string name="wuqi">武器</string>
+    <string name="jiaoliu">交流</string>
+    <string name="gonghui">红魔馆</string>
+    <string name="chuxun">出巡</string>
+    <string name="zhaohuan">雇佣</string>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+        android:id="@+id/sim1"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@+id/sim1"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="55dp"
+        />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_toRightOf="@+id/sim1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="45dp"
+        android:text="攻击："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_below="@+id/s1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="195dp"
+        android:text="魔攻："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_below="@+id/s2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="195dp"
+        android:text="防御："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_below="@+id/s3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="195dp"
+        android:text="魔防："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s5"
+        android:layout_below="@+id/s4"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="195dp"
+        android:text="HP："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/atk"
+        android:layout_toRightOf="@+id/s1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/mat"
+        android:layout_below="@+id/atk"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="255dp"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/def"
+        android:layout_below="@+id/mat"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="255dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/mdf"
+        android:layout_below="@+id/def"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="255dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_below="@+id/mdf"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="255dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s6"
+        android:layout_toRightOf="@+id/sim1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="210dp"
+        android:text="暴击："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s7"
+        android:layout_below="@+id/s6"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="360dp"
+        android:text="MP："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s8"
+        android:layout_below="@+id/s7"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="360dp"
+        android:text="幸运："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s9"
+        android:layout_below="@+id/s8"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="360dp"
+        android:text="速度："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/s10"
+        android:layout_below="@+id/s9"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="360dp"
+        android:text="闪避："
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/cri"
+        android:layout_toRightOf="@+id/s6"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/mp"
+        android:layout_below="@+id/cri"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="420dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/luk"
+        android:layout_below="@+id/mp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="420dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/spd"
+        android:layout_below="@+id/luk"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="420dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/flee"
+        android:layout_below="@+id/spd"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="420dp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

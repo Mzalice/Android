@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/tiaozhuan1" android:duration="500" />
+    <item android:drawable="@drawable/tiaozhuan2" android:duration="500" />
+    <item android:drawable="@drawable/tiaozhuan3" android:duration="500" />
+
+    <!--  层叠
+
+    <item android:duration="500">
+          <layer-list>
+              <item android:drawable="@drawable/login_loading_01" />
+              <item android:drawable="@drawable/login_loading_11" />
+          </layer-list>
+      </item>
+
+      -->
+
+</animation-list>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/peoplechoose"
+    >
+
+    <Button
+        android:id="@+id/da"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="10%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="4%"
+        android:scaleType="fitXY"
+        android:background="@drawable/bt3"
+        android:text="@string/hongmoguan"
+        android:textSize="15sp"
+        android:textStyle="bold"
+      />
+
+    <Button
+        android:id="@+id/db"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="10%"
+        app:layout_marginLeftPercent="20%"
+        app:layout_marginTopPercent="4%"
+        android:scaleType="fitXY"
+        android:background="@drawable/bt3"
+        />
+
+    <Button
+        android:id="@+id/dc"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="10%"
+        app:layout_marginLeftPercent="35%"
+        app:layout_marginTopPercent="4%"
+        android:scaleType="fitXY"
+        android:background= "@drawable/bt3"
+        />
+
+    <ImageView
+        android:id="@+id/dd"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="70%"
+        app:layout_widthPercent="35%"
+        app:layout_marginLeftPercent="55%"
+        app:layout_marginTopPercent="4%"
+        android:scaleType="fitXY"
+        android:background="@drawable/devil"
+        />
+
+    <ImageView
+        android:id="@+id/dda"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="72%"
+        app:layout_widthPercent="37%"
+        app:layout_marginLeftPercent="54%"
+        app:layout_marginTopPercent="3%"
+        android:scaleType="fitXY"
+        android:background="@drawable/bk1"
+        />
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="75%"
+        app:layout_widthPercent="40%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="20%"
+        android:scaleType="fitXY"
+        android:background="@drawable/da"
+        />
+
+    <Button
+        android:id="@+id/de"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="18%"
+        app:layout_marginLeftPercent="55%"
+        app:layout_marginTopPercent="80%"
+        android:scaleType="fitXY"
+        android:background= "@drawable/bt3"
+        android:text="@string/danchou"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/df"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="18%"
+        app:layout_marginLeftPercent="77%"
+        app:layout_marginTopPercent="80%"
+        android:scaleType="fitXY"
+        android:background= "@drawable/bt3"
+        android:text="@string/shilian"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+
+</android.support.percent.PercentRelativeLayout>

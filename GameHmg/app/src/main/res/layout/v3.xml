@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.gamehmg.e"
+    android:background="@drawable/tiaozhuan5"
+    >
+
+    <ListView
+        android:id="@+id/vibt3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="40%"
+        app:layout_marginLeftPercent="15%"
+        app:layout_marginTopPercent="20%"
+        />
+
+
+    <ImageView
+        android:id="@+id/vi3"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="30%"
+        app:layout_marginLeftPercent="60%"
+        app:layout_marginTopPercent="60%"
+        android:scaleType="fitXY"
+        />
+
+
+
+
+
+
+</android.support.percent.PercentRelativeLayout>

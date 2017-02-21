@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+        android:id="@+id/b1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="70%"
+        app:layout_widthPercent="35%"
+        app:layout_marginTopPercent="10%"
+        app:layout_marginLeftPercent="10%"
+        />
+    <ImageView
+        android:id="@+id/b2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="70%"
+        app:layout_widthPercent="35%"
+        app:layout_marginTopPercent="10%"
+        app:layout_marginLeftPercent="55%"
+        />
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="10%"
+        app:layout_marginTopPercent="60%"
+        app:layout_marginLeftPercent="60%"
+        android:background="@drawable/bt3"
+        android:text="@string/jiangli"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="10%"
+        app:layout_marginTopPercent="60%"
+        app:layout_marginLeftPercent="75%"
+        android:background="@drawable/bt3"
+        android:text="@string/huodong"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="12%"
+        app:layout_marginTopPercent="85%"
+        app:layout_marginLeftPercent="85%"
+        android:background="@drawable/btr2"
+        android:text="@string/hongmoguan"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+</android.support.percent.PercentRelativeLayout>

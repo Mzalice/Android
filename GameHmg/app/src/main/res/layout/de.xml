@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <Button
+        android:id="@+id/dea"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="10%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="4%"
+        android:background="@drawable/itembtr"
+        android:scaleType="fitXY"
+        android:text="@string/fanhui"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:id="@+id/deimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="80%"
+        app:layout_widthPercent="50%"
+        app:layout_marginTopPercent="10%"
+        app:layout_marginLeftPercent="25%"
+        android:scaleType="fitXY"/>
+
+
+</android.support.percent.PercentRelativeLayout>
